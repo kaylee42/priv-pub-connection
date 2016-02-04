@@ -1,0 +1,4 @@
+production:
+  server: "https://priv-pub-connection.herokuapp.com/faye"
+  secret_token: ENV['PRIVATE_PUB_SECRET']
+  signature_expiration: 3600 # one hour
